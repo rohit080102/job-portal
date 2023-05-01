@@ -7,7 +7,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -24,4 +25,5 @@ import { HttpClientModule } from '@angular/common/http';
   bootstrap: [AppComponent]
 })
 export class AppModule { }import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './page/login/login.component';
 
